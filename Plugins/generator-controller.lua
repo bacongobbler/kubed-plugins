@@ -1,10 +1,10 @@
 local name = "generator-controller"
-local version = "1.1.0"
+local version = "1.4.0"
 
 plugin = {
     name = name,
-    description = "Generates controllers for Draft",
-    homepage = "https://github.com/bacongobbler/draft-generator-controller",
+    description = "Generates controllers for Kubed",
+    homepage = "https://github.com/bacongobbler/kubed-generator-controller",
     version = version,
     useTunnel = false,
     packages = {
@@ -12,21 +12,21 @@ plugin = {
             os = "darwin",
             arch = "amd64",
             url = "https://bacongobbler.blob.core.windows.net/stuff/" .. name .. "-v" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "f4db69a4038256b6ff6053c286fae88ecbb1f2ec19d19e39fdf35c773b42c794",
+            sha256 = "a6aefa8df0129c1e65004557569b7931c8393722c643750a4cd2ff41fec227bd",
             path = name,
         },
         {
             os = "linux",
             arch = "amd64",
             url = "https://bacongobbler.blob.core.windows.net/stuff/" .. name .. "-v" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "cabb46c3f6758f7bcdbc5122fbd82065207112ea2c2ba5bcadab46414cecac68",
+            sha256 = "b814ece83d55772e37b6a479c6a5bd34c1b241d469f045fbb428311fa02fa988",
             path = name,
         },
         {
             os = "windows",
             arch = "amd64",
             url = "https://bacongobbler.blob.core.windows.net/stuff/" .. name .. "-v" .. version .. "-windows-amd64.tar.gz",
-            sha256 = "a78fddc8a908ffa2202f796d0c425d7702b3fdbc4885498eca7f2da232ba06a7",
+            sha256 = "f25a6e2773b6aa04506ffdd2db53eb14e6cb4a8c9ecdde9cb97b9c6032ce6b88",
             path = name .. ".exe",
         }
     }

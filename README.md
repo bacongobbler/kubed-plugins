@@ -1,6 +1,6 @@
-# Draft Generators
+# Kubed Generators
 
-Core generators for Draft.
+Core generators for Kubed.
 
 # License
 
