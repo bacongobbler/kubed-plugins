@@ -1,10 +1,10 @@
-local name = "generator-controller"
-local version = "1.4.2"
+local name = "generator-nodejs"
+local version = "1.0.0"
 
 plugin = {
     name = name,
-    description = "Generates controllers for Kubed",
-    homepage = "https://github.com/bacongobbler/kubed-generator-controller",
+    description = "Generates NodeJS applications for Kubed",
+    homepage = "https://github.com/bacongobbler/kubed-generator-nodejs",
     version = version,
     useTunnel = false,
     packages = {
@@ -12,21 +12,21 @@ plugin = {
             os = "darwin",
             arch = "amd64",
             url = "https://bacongobbler.blob.core.windows.net/stuff/" .. name .. "-v" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "3b9f1974be34e3c7f188231d94731004dad691deabbdbbd90801494446908850",
+            sha256 = "dde7a6f6bf6f00aa3c3551328f079ad20badb63167398d0935a65752133c4985",
             path = name,
         },
         {
             os = "linux",
             arch = "amd64",
             url = "https://bacongobbler.blob.core.windows.net/stuff/" .. name .. "-v" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "583bcabcc63e8bfb96b602593580f2b920d672487afff1f8d9264a47a50b4043",
+            sha256 = "ed3964984df8c9ef7d2b856864cdb3c1134eda6348b79bfc6eab25a9c5b0ebc7",
             path = name,
         },
         {
             os = "windows",
             arch = "amd64",
             url = "https://bacongobbler.blob.core.windows.net/stuff/" .. name .. "-v" .. version .. "-windows-amd64.tar.gz",
-            sha256 = "a6885680c54443243036c6cb1cd1d97a4f07a8d04abc787b8477d41256a83f0f",
+            sha256 = "ce6e3a5981edca8e412c61a701271a846d9cac53349a57ab21f26d46c6e86cf9",
             path = name .. ".exe",
         }
     }
