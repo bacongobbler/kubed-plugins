@@ -1,6 +1,6 @@
-# Kubed Generators
+# Kubed Plugins
 
-Core generators for Kubed.
+Core plugins for Kubed.
 
 # License
 
