@@ -1,5 +1,5 @@
 local name = "generator-ruby"
-local version = "1.0.0"
+local version = "1.0.1"
 
 plugin = {
     name = name,
@@ -12,21 +12,21 @@ plugin = {
             os = "darwin",
             arch = "amd64",
             url = "https://bacongobbler.blob.core.windows.net/stuff/" .. name .. "-v" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "321b6631f6ab46847c77ab67bb3812832dbad96b6bed1fdaf092fcc8a181e658",
+            sha256 = "c39a9ad8cfac496cb12d7d7a1f11831997985d22d5408c4a90eb0b95e06a57ab",
             path = name,
         },
         {
             os = "linux",
             arch = "amd64",
             url = "https://bacongobbler.blob.core.windows.net/stuff/" .. name .. "-v" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "5ed17a7862f4e2052820415cd370d7b4cd0e9c60f7676baa51b44e5aa2bf7d88",
+            sha256 = "9d47fa23464393462ad8521a833be9b4a78581b2b85caec90a2fa2b8d6ca728c",
             path = name,
         },
         {
             os = "windows",
             arch = "amd64",
             url = "https://bacongobbler.blob.core.windows.net/stuff/" .. name .. "-v" .. version .. "-windows-amd64.tar.gz",
-            sha256 = "61bbffab0dad0485d54ad1fe58b7738c5ae5be5ef20b3c79182d9fd47df6acef",
+            sha256 = "3ad498e3a3b268dfe0221c4af58aac4e0a58ad5fc1ffca2ee42a83b5295a4f91",
             path = name .. ".exe",
         }
     }
